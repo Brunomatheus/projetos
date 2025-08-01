@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face{
+    font-family: 'wp';
+    src: url('../fontes/Winter\ Spring.otf') format('opentype');
+}
+:root{
+    --cor0: black;
+    --cor1: red;
+    --cor2: gray;
+    --cor3: rgb(255, 115, 0);
+    --font1: wp;
+}
+header{
+
+    background-image: linear-gradient(to bottom, black, gray );
+}
+
+h1{
+    font-family: var(--font1);
+    font-size: 3em;
+    color: var(--cor3);
+    text-align: center;
+}
