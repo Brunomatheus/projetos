@@ -16,11 +16,18 @@
     --cor1: red;
     --cor2: gray;
     --cor3: rgb(255, 115, 0);
+    --cor4: white;
     --font1: wp;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
 header{
 
     background-image: linear-gradient(to bottom, black, gray );
+    width: 100vw;
 }
 
 h1{
@@ -28,4 +35,38 @@ h1{
     font-size: 3em;
     color: var(--cor3);
     text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 5px 5px  rgb(46, 46, 46);
+}
+main{
+    min-width: 400px;
+    max-width: 900px;
+    padding: 30px;
+    background-color: rgb(99, 99, 99);
+    color: var(--cor4);
+    margin: auto;
+    
+}
+ section{
+    width: 500px;
+    background-color: rgb(65, 64, 64);
+    margin:auto;
+}
+section p {
+    text-align: justify;
+}
+main h2{
+    color: var(--cor1);
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+}
+img{
+    min-width: 500px;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+}
+footer{
+    color: white;
+   
 }
