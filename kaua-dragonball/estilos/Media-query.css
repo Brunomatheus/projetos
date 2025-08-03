@@ -1,2 +1,15 @@
 @charset "UTF-8";
 
+/* Medias queries */
+
+@media  screen and (min-width: 768px) {
+    header > h1{
+        font-size: 5em;
+    }
+    main > article{
+        margin: auto;
+        margin-top: 10px;
+        width: 768px;
+    }
+    
+}
